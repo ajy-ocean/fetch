@@ -1,0 +1,141 @@
+name: fetch
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  audioplayers: ^6.6.0
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  change_app_package_name: ^1.1.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_logo/shiba_app_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+
+flutter:
+  assets:
+    # Splash Screen assets
+    # ====================
+    - assets/splash_screen/splash_logo.png
+    - assets/splash_screen/dog_walking.gif
+
+    # First Screen assets
+    # ===================
+    - assets/intros/first_screen/first_screen_dog_hello.png
+    - assets/intros/first_screen/first_screen_ellipse.png
+    - assets/intros/first_screen/first_screen_paw.png
+
+    # Second Screen assets
+    # ====================
+    - assets/intros/second_screen/second_screen_ellipse.png
+    - assets/intros/second_screen/second_screen_good_job_dog.png
+    - assets/intros/second_screen/second_screen_paw.png
+
+    # Third Screen assets
+    # ===================
+    - assets/intros/third_screen/third_screen_dog_voice.png
+    - assets/intros/third_screen/third_screen_ellipse.png
+    - assets/intros/third_screen/third_screen_lets_get_started_bone.png
+
+    # Fourth Screen assets
+    # ====================
+    - assets/intros/fourth_screen/fourth_screen_accept_bone.png
+    - assets/intros/fourth_screen/fourth_screen_group_of_dogs.png
+    - assets/intros/fourth_screen/fourth_screen_terms.png
+
+    # Fifth Screen assets
+    # ===================
+    - assets/intros/fifth_screen/fifth_screen_bottom_puppy.png
+    - assets/intros/fifth_screen/fifth_screen_continue_bone.png
+    - assets/intros/fifth_screen/fifth_screen_select_lang.png
+    - assets/intros/fifth_screen/flags/britain_flag.png
+    - assets/intros/fifth_screen/flags/france_flag.png
+    - assets/intros/fifth_screen/flags/india_flag.png
+    - assets/intros/fifth_screen/flags/nihon_flag.png
+    - assets/intros/fifth_screen/flags/portuguese_flag.png
+    - assets/intros/fifth_screen/flags/russia.png
+    - assets/intros/fifth_screen/flags/south_korea_flag.png
+    - assets/intros/fifth_screen/flags/spain_flag.png
+    
+    # Main Menu Screen assets
+    # =======================
+    - assets/menu/main_menu/sidebar_menu.png
+    - assets/menu/main_menu/dog_training_menu.png
+    - assets/menu/main_menu/fake_call_menu.png
+    - assets/menu/main_menu/groupofpuppies_menu.png
+    - assets/menu/main_menu/menu_sidebar_icon.png
+    - assets/menu/main_menu/sound_menu.png
+    - assets/menu/main_menu/translator_menu.png
+    - assets/menu/main_menu/whistle_menu.png
+
+    # Sound Menu Screen assets
+    # ========================
+    - assets/menu/sound_menu/bottom_nav_sound_menu.png
+    - assets/menu/sound_menu/home_icon_sound_menu.png
+    - assets/menu/sound_menu/searchbar_sound_menu.png
+    - assets/menu/sound_menu/arrowcircleleft_sound_menu.png
+    - assets/menu/sound_menu/bottom_dog_sound_menu.png
+    - assets/menu/sound_menu/loop_sound_menu.png
+    - assets/menu/sound_menu/deactive_loop_sound_menu.png
+    - assets/menu/sound_menu/timer_sound_menu.png
+
+    # Whistle Menu Screen assets
+    # ==========================
+    - assets/menu/whistle_menu/home_icon_whistle_menu.png
+    - assets/menu/whistle_menu/bottom_nav_whistle_menu.png
+    - assets/menu/whistle_menu/btn_on_whistle_menu.png
+    - assets/menu/whistle_menu/btn_off_whistle_menu.png
+    - assets/menu/whistle_menu/dog_whistle_menu.mp3
+
+    # Dog Call Menu Screen assets
+    # ===========================
+    - assets/menu/fake_call_menu/bottom_nav_fake_call_menu.png
+    - assets/menu/fake_call_menu/camera_icon_fake_call_menu.png
+    - assets/menu/fake_call_menu/chihuahua_fake_call_menu.jpg
+    - assets/menu/fake_call_menu/goldenretriever_fake_call_menu.jpg
+    - assets/menu/fake_call_menu/home_icon_fake_call_menu.png
+    - assets/menu/fake_call_menu/husky_fake_call_menu.jpg
+    - assets/menu/fake_call_menu/labrador_fake_call_menu.jpg
+    - assets/menu/fake_call_menu/shitzu_fake_call_menu.jpg
+    - assets/menu/fake_call_menu/search_bone.png
+    - assets/menu/fake_call_menu/popup/bone_image_fake_call_menu.png
+    - assets/menu/fake_call_menu/popup/dog_icon_fake_call_menu.png
+    - assets/menu/fake_call_menu/popup/laying_dog_icon_fake_call_menu.png
+    - assets\menu\fake_call_menu\popup\green_btn_fake_call_menu.png
+    - assets\menu\fake_call_menu\popup\red_btn_fake_call_menu.png
+    - assets\menu\fake_call_menu\actress\act_1.jpg
+    - assets\menu\fake_call_menu\actress\act_2.jpg
+    - assets\menu\fake_call_menu\actress\act_3.jpg
+    - assets\menu\fake_call_menu\actress\act_4.jpg
+    - assets\menu\fake_call_menu\popup\cut_call_btn_fake_call_menu.png
+    
+    # Translator Menu Screen assets
+    # =============================
+    - assets\menu\translator_menu\bottom_nav_translator_menu.png
+    - assets\menu\translator_menu\header_translator_menu.png
+    - assets\menu\translator_menu\home_icon_translator_menu.png
+    - assets\menu\translator_menu\mic_translator_menu.png
+    - assets\menu\translator_menu\paw_translator_menu.png
+    - assets\menu\translator_menu\human_to_dog_translate.png
+    - assets\menu\translator_menu\btn_translate_menu.png
+    - assets\menu\translator_menu\record_translate_menu.png
+    - assets\menu\translator_menu\popup\retake_popup.png
+    - assets\menu\translator_menu\popup\watch_ad_popup.png
+
+  uses-material-design: true
