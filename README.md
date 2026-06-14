@@ -1,6 +1,6 @@
 # Fetch 🐕
 
-**The Ultimate Dog Training & Communication Companion**
+**Fun Dog Sounds, Whistle & Prank Screens**
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
@@ -12,7 +12,7 @@
 
 ## 🚀 Overview
 
-**Fetch** is a feature-rich Flutter application designed to bridge the gap between dogs and their owners. Whether you are looking to train a new puppy or just have some fun with a prank translator, Fetch provides a smooth, intuitive interface to manage all your canine interactions.
+**Fetch** is a dog-themed entertainment app featuring sound effects, whistle sounds, and playful prank screens. With a simple and colorful design, the app provides a fun experience for dog lovers.
 
 ## 📥 Download & Install
 
@@ -33,35 +33,27 @@ Experience Fetch on your Android device immediately.
   <img src="assets/menu/main_menu/whistle_menu.png" width="200" />
 </p>
 
-## ✨ Key Features
+✨ Features
+🐾 Dog Sounds
 
-### 🎓 Expert Dog Training
+Play a variety of dog-themed sounds and audio effects.
 
-Access a curated list of training techniques and guides fetched dynamically via API. From basic commands to advanced behavior correction.
+🔊 Whistle Sounds
 
-### 🗣️ Prank Voice Translator
+Use built-in whistle sounds for fun and entertainment.
 
-Ever wondered what your dog is thinking? Use our playful translator to "convert" your voice into barks and vice-versa for endless entertainment.
+📱 Prank Screens
 
-### 🔊 High-Fidelity Sound Library
+Display dog-themed prank screens designed for amusement and entertainment.
 
-- **Dog Sounds:** A wide variety of barks, whines, and playful noises.
-- **Whistle Tool:** Adjustable frequencies for training and attention-grabbing.
+🎨 Simple User Interface
 
-### 📞 Fake Call Simulation
+Clean layouts, custom artwork, and playful animations for an enjoyable experience.
 
-Prank your friends or interact with your dog using the simulated video and voice call feature.
+🛠️ Built With
+Flutter
+Dart
 
-### 🌍 Multi-Language Support
+⚠️ Disclaimer
 
-Fully localized UI supporting English, Hindi, Spanish, French, Korean, Japanese, and more.
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework:** [Flutter](https://flutter.dev) (v3.x)
-- **Language:** [Dart](https://dart.dev)
-- **Architecture:** Stateful Widget Logic with Animation Controllers
-- **API Integration:** RESTful API for training content
-- **UI/UX:** Custom designed assets and responsive layout
+**Fetch** is intended for entertainment purposes only. Features such as sounds, whistle effects, and prank screens are designed for fun and do not provide real animal translation, communication, training, or calling functionality.

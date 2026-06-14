@@ -1,4 +1,4 @@
-package com.fetch
+package com.rawatji.fetch
 
 import io.flutter.embedding.android.FlutterActivity
 
