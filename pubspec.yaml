@@ -117,25 +117,25 @@ flutter:
     - assets/menu/fake_call_menu/popup/bone_image_fake_call_menu.png
     - assets/menu/fake_call_menu/popup/dog_icon_fake_call_menu.png
     - assets/menu/fake_call_menu/popup/laying_dog_icon_fake_call_menu.png
-    - assets\menu\fake_call_menu\popup\green_btn_fake_call_menu.png
-    - assets\menu\fake_call_menu\popup\red_btn_fake_call_menu.png
-    - assets\menu\fake_call_menu\actress\act_1.jpg
-    - assets\menu\fake_call_menu\actress\act_2.jpg
-    - assets\menu\fake_call_menu\actress\act_3.jpg
-    - assets\menu\fake_call_menu\actress\act_4.jpg
-    - assets\menu\fake_call_menu\popup\cut_call_btn_fake_call_menu.png
+    - assets/menu/fake_call_menu/popup/green_btn_fake_call_menu.png
+    - assets/menu/fake_call_menu/popup/red_btn_fake_call_menu.png
+    - assets/menu/fake_call_menu/actress/act_1.jpg
+    - assets/menu/fake_call_menu/actress/act_2.jpg
+    - assets/menu/fake_call_menu/actress/act_3.jpg
+    - assets/menu/fake_call_menu/actress/act_4.jpg
+    - assets/menu/fake_call_menu/popup/cut_call_btn_fake_call_menu.png
     
     # Translator Menu Screen assets
     # =============================
-    - assets\menu\translator_menu\bottom_nav_translator_menu.png
-    - assets\menu\translator_menu\header_translator_menu.png
-    - assets\menu\translator_menu\home_icon_translator_menu.png
-    - assets\menu\translator_menu\mic_translator_menu.png
-    - assets\menu\translator_menu\paw_translator_menu.png
-    - assets\menu\translator_menu\human_to_dog_translate.png
-    - assets\menu\translator_menu\btn_translate_menu.png
-    - assets\menu\translator_menu\record_translate_menu.png
-    - assets\menu\translator_menu\popup\retake_popup.png
-    - assets\menu\translator_menu\popup\watch_ad_popup.png
+    - assets/menu/translator_menu/bottom_nav_translator_menu.png
+    - assets/menu/translator_menu/header_translator_menu.png
+    - assets/menu/translator_menu/home_icon_translator_menu.png
+    - assets/menu/translator_menu/mic_translator_menu.png
+    - assets/menu/translator_menu/paw_translator_menu.png
+    - assets/menu/translator_menu/human_to_dog_translate.png
+    - assets/menu/translator_menu/btn_translate_menu.png
+    - assets/menu/translator_menu/record_translate_menu.png
+    - assets/menu/translator_menu/popup/retake_popup.png
+    - assets/menu/translator_menu/popup/watch_ad_popup.png
 
   uses-material-design: true
