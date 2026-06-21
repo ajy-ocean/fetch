@@ -8,7 +8,7 @@
 PRODUCT_NAME = fetch
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.rawatji.fetch
+PRODUCT_BUNDLE_IDENTIFIER = com.trycatch.fetch
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 com.rawatji.fetch. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 com.trycatch.fetch. All rights reserved.
