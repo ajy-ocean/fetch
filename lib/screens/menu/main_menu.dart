@@ -4,11 +4,19 @@ import 'package:fetch/screens/menu/fake_call_menu/dog_call.dart';
 import 'package:fetch/screens/menu/translator_menu/dog_translator_menu.dart';
 import 'package:fetch/screens/menu/dog_training_menu/dog_training_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MainMenuScreen extends StatelessWidget {
   MainMenuScreen({super.key});
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
+  Future<void> _launchUrl(String urlString) async {
+    final Uri url = Uri.parse(urlString);
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      throw Exception('Could not launch $url');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -234,7 +242,7 @@ class MainMenuScreen extends StatelessWidget {
                     ),
                   ),
                   _sidebarItem('Privacy policy', Icons.privacy_tip_rounded, () {
-                    // Add your privacy policy logic here
+                    _launchUrl('https://ajy-ocean.github.io/fetch/PRIVACY.md');
                   }),
                   _sidebarItem(
                     'Terms & Conditions',
