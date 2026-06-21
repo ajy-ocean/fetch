@@ -248,7 +248,7 @@ class MainMenuScreen extends StatelessWidget {
                     'Terms & Conditions',
                     Icons.description_rounded,
                     () {
-                      // Add your terms logic here
+                      _launchUrl('https://ajy-ocean.github.io/fetch/TERMS.md');
                     },
                   ),
                 ],
